@@ -1,4 +1,4 @@
-image: php 
+image: phpunit/phpunit
 script:
   - composer install
   - phpunit --coverage-text
