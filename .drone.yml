@@ -1,5 +1,6 @@
 image: aykutaras/phpunit
 script:
+  - composer config -g github-oauth.github.com $$GITHUB_OAUTH_TOKEN
   - composer install
   - phpunit --coverage-text
 
