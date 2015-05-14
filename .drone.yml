@@ -1,4 +1,4 @@
-image: phpunit/phpunit
+image: aykutaras/phpunit
 script:
   - composer install
   - phpunit --coverage-text
