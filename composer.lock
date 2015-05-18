@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "8216d339565fdf90e125e13d6d3a1e97",
+    "hash": "50b5406c8a7174b583b16811cbf07300",
     "packages": [
         {
             "name": "danielstjules/stringy",
@@ -2282,6 +2282,50 @@
         }
     ],
     "packages-dev": [
+        {
+            "name": "aykutaras/composer-sample",
+            "version": "0.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/aykutaras/composer-sample.git",
+                "reference": "a80a48e5869900b84d17f280c82d722b2221d439"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/aykutaras/composer-sample/zipball/a80a48e5869900b84d17f280c82d722b2221d439",
+                "reference": "a80a48e5869900b84d17f280c82d722b2221d439",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "AykutAras\\ComposerSample\\": "src/"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "AykutAras\\ComposerSample\\Test\\": "tests/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Aykut Aras",
+                    "email": "aykutaras@gmail.com"
+                }
+            ],
+            "description": "Composer packaging sample repository",
+            "support": {
+                "source": "https://github.com/aykutaras/composer-sample/tree/0.0.1",
+                "issues": "https://github.com/aykutaras/composer-sample/issues"
+            },
+            "time": "2015-05-17 11:59:55"
+        },
         {
             "name": "doctrine/instantiator",
             "version": "1.0.4",

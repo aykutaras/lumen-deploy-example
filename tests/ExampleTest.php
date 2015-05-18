@@ -1,5 +1,7 @@
 <?php
 
+use AykutAras\ComposerSample\Sampler;
+
 class ExampleTest extends TestCase {
 
     /**
@@ -27,5 +29,12 @@ class ExampleTest extends TestCase {
         $tester = new App\Commands\TesterCommand();
 	$tester->handle();
         $this->assertEquals(null, $tester->handle());
+   }
+
+   public function testSamplerTest()
+   {
+       $sampler = new AykutAras\ComposerSample\Sampler;
+       $welcome = $sampler->Welcome();
+       $this->assertEquals($welcome, "Welcome home Jack");
    }
 }

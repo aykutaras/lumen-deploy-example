@@ -4,6 +4,9 @@
     "repositories": [{
         "type": "vcs",
         "url": "https://github.com/aykutaras/lumen-deploy-example"
+    }, {
+        "type": "vcs",
+        "url": "https://github.com/aykutaras/composer-sample"
     }],
     "keywords": ["framework", "laravel", "lumen"],
     "license": "MIT",
@@ -14,7 +17,8 @@
         "illuminate/bus": "^5.0"
     },
     "require-dev": {
-        "phpunit/phpunit": "~4.0"
+        "phpunit/phpunit": "~4.0",
+        "aykutaras/composer-sample": "~0.0.1"
     },
     "autoload": {
         "psr-4": {
